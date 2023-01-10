@@ -1,0 +1,35 @@
+.navigation {
+	background-color: #ebf4f5;
+}
+
+.navigation__list {
+	list-style: none;
+	text-align: center;
+}
+.navigation__listItem {
+	display: inline-block;
+	padding: 25px;
+	font-size: 18px;
+}
+
+.navigation__navLink {
+	text-decoration: none;
+	font-weight: 800;
+	text-align: center;
+	color: black;
+}
+li:hover {
+	padding: 25px;
+	font-size: 18px;
+	box-shadow: -5px -5px 50px 5px #9ebbe7;
+	background-color: #b5c6e0;
+}
+li:focus {
+	padding: 25px;
+	font-size: 18px;
+	box-shadow: -5px -5px 50px 5px #9ebbe7;
+	background-color: #b5c6e0;
+}
+a:active {
+	color: red;
+}

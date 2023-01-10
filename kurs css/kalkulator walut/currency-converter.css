@@ -1,0 +1,11 @@
+html {
+	box-sizing: border-box;
+	background-image: url("../kalkulator walut/image/monty.jpg");
+	resize: both;
+	overflow: auto;
+}
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}

@@ -1,0 +1,48 @@
+
+
+.section {
+	margin-top: 50px;
+}
+.section__title {
+	background-color: #ebf4f5;
+	text-decoration: underline;
+	text-align: center;
+	height: 50px;
+	padding: 15px;
+}
+.section__picture {
+	display: block;
+	margin: 20px auto;
+	max-width: 200px;
+	border-radius: 25px 75px;
+}
+.section__paragaph {
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 50px 25px;
+	max-width: 600px;
+	background-color: #ebf4f5;
+	text-align: left;
+	line-height: 2;
+}
+
+.button {
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	background-color: #0d405e;
+	color: antiquewhite;
+	font-size: 20px;
+}
+.button:active {
+	width: 300px;
+	background-color: #0d405e;
+	color: rgb(150, 89, 10);
+	font-size: 20px;
+}
+.footer {
+	margin-top: 5px;
+	text-align: center;
+	padding: 5px;
+	background-color: #bfe5fc;
+}

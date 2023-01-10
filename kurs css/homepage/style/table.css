@@ -1,0 +1,29 @@
+.table_container {
+	overflow: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 80%;
+}
+.table_cell {
+	border: 2px solid black;
+	padding: 20px;
+	text-align: center;
+}
+
+.table_header {
+	background-color: #4198f5;
+}
+.table_caption {
+	border: 2px solid black;
+	padding: 20px;
+	text-align: center;
+	background-color: #0d405e;
+	color: antiquewhite;
+}
+.table_row:hover {
+	background-color: #8ca7ce;
+}

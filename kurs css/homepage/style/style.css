@@ -1,0 +1,22 @@
+html {
+	box-sizing: border-box;
+	font-family: "Raleway", sans-serif;
+}
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}
+body {
+	background: #b5c6e0;
+}
+
+.container {
+	max-width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #d9e5ee;
+}
+.dark {
+	background-color: rgb(129, 15, 15);
+}

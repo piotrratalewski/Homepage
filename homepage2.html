@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="img/Homepage.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/section.css">
+    <link rel="stylesheet" href="style/table.css">
+    <link rel="stylesheet" href="style/navigation.css">
+    <link rel="stylesheet" href="style/header.css">
+    <title>Piotr Ratalewski</title>
+    <script defer src="/homepage/script/script2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,800;1,400;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Piotr Ratalewski</h1>
+
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__listItem">
+                    <a class="navigation__navLink" href="#pierwsza-sekcja">O mnie</a>
+                </li>
+                <li class="navigation__listItem">
+                    <a class="navigation__navLink" href="#druga-sekcja"> Moje zainteresowania</a>
+                </li>
+                <li class="navigation__listItem">
+                    <a class="navigation__navLink" href="#tabela"> Tabelka</a>
+                </li>
+                <li class="navigation__listItem">
+                    <a class="navigation__navLink" href="#przycisk"> Magiczny przycisk</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section id="pierwsza-sekcja" class="section">
+                <h2 class="section__title">coś o mnie</h2>
+
+
+                <p class="section__paragaph">
+                    Cześć!<br>
+                    Jestem Piotrek, mam 30 lat i od jakiegoś czasu ucze sie programowania. <br>
+                    Na codzień jestem specjalistą ds importu w dziale zaopatrzenia w Auchan Polska.<br>
+                    Także jeżeli kupiliście ostatnio jakieś ozdoby do pokoju lub wyposarzenie do kuchni w Auchan, to
+                    poniekąd pomogłem wam upiększyć swój dom :)<br>
+                    Do nauki programowania skłoniły mnie chęć zmiany pracy i sposobu życia<br>
+                    Interesuje sie muzyką, po pracy gram w zesople metalowym na gitarze basowej, tworzenie muzyki
+                    jest moją pasją<br>
+                    Oprócz gry w zespołach muzycznych w rammch rozrywki uwielbiam grać w gry planszowe oraz
+                    komputerowe.
+
+
+                </p>
+                <img class="section__picture" src="img/DSC01736.JPG" alt="moje zdjecie do zmiany">
+
+
+
+            </section>
+            <section id="druga-sekcja" class="section">
+                <h2 class="section__title">zainteresowania</h2>
+
+                <p class="section__paragaph">
+                    Jak pisałem powyżej moją wielka pasją jest gra na gitarze basowej. Na basie gram od 14 roku
+                    życia. Moja przygoda z gitarą basową zaczęłą sie bardzo standarowodo, nikt nie chciał na niej
+                    grać a był potrzebny basista do zespołu.<br>
+                    Zagrałem wiele koncertów z różnymi zespołami, ale nawjwiększy udało mi sie zagrać na Stadionie
+                    Narodowym w Warszawie na Wilkim Graniu, gdzie razem z 1000 innych muzyków zagraliśmy
+                    koncert.<br>
+                    Oprócz grania w zespole uprawiam też sport, a dokładnie to biegam. Moj największy dystans jaki
+                    udało mi sie przebiec to bieg na 50km.
+
+
+                </p>
+
+                <section id="tabela" class="table_container">
+                    <table class="table">
+                        <caption class="table_caption">Moje osiągnięcia</caption>
+                        <tr class="table_row">
+                            <th class="table_cell table_header" scope="col">wydarzenie</th>
+                            <th class="table_cell table_header" scope="col">miejsce</th>
+                            <th class="table_cell table_header" scope="col">rok</th>
+                        </tr>
+                        <tr class="table_row">
+                            <th class="table_cell table_header" , scope="row">Ślub</th>
+                            <td class="table_cell">Grecja</td>
+                            <td class="table_cell">2021</td>
+                        </tr>
+                        <tr class="table_row">
+                            <th class="table_cell table_header" , scope="row">Wielkie Granie - koncert</th>
+                            <td class="table_cell">Stadion Narodowy</td>
+                            <td class="table_cell">2022</td>
+                        </tr>
+                        <tr class="table_row">
+                            <th class="table_cell table_header" scope="row">Ultramarton</th>
+                            <td class="table_cell">Zalew Sulejowski</td>
+                            <td class="table_cell">2020</td>
+                        </tr>
+                        <tr class="table_row">
+                            <th class="table_cell" scope="row" colspan="3"> I wiele innych </th>
+                        </tr>
+
+                    </table>
+
+                </section>
+
+            </section>
+            <button id="przycisk" class="button">Przycisk zmieniający świat na <span
+                    class="themeName">gorzszy</span></button>
+        </main>
+
+        <footer>
+            <p class="footer">prawa autorskie </p>
+        </footer>
+    </div>
+</body>
+
+</html>
